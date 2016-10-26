@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+</head>
+<body>
+<h1>Products</h1>
+<ul>
+    <% for(var i = 0; i < cart.itemList.length; i++) { %>
+    <li>
+        <div>
+            <a href="/cart/add/<%= cart.itemList[i].name%>">Add to Cart</a>
+            <strong>Name:</strong> <%= cart.itemList[i].name %><br>
+            <strong>Description:</strong> <%= cart.itemList[i].description %><br>
+            <strong>Price:</strong> <%= cart.itemList[i].price %><br>
+        </div>
+    </li>
+    <% } %>
+</ul>
+</body>
+</html>

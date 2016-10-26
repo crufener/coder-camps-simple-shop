@@ -1,0 +1,22 @@
+{
+  "name": "simple-shop",
+  "description": "",
+  "main": "app.js",
+  "authors": [
+    "Craig Rufener <crufener@outlook.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/lib",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "normalize-css": "normalize.css#^5.0.0",
+    "less": "^2.7.1"
+  }
+}

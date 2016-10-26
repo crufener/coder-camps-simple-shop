@@ -1,0 +1,33 @@
+{
+  "name": "simple-shop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "0.0.33",
+    "@types/connect-flash": "0.0.31",
+    "@types/ejs": "^2.3.32",
+    "@types/express": "^4.0.33",
+    "@types/express-session": "0.0.32",
+    "@types/mongoose": "^4.5.38",
+    "@types/passport": "^0.2.32",
+    "@types/passport-local": "^1.0.29",
+    "body-parser": "^1.15.2",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.5.2",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "mongodb": "^2.2.10",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "request": "^2.75.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
